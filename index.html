@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TwitCoffee - Crypto Crowdfunding</title>
+</head>
+<body>
+  <h1>Welcome to TwitCoffee - Crypto Crowdfunding Platform</h1>
+  <h2>Create a Campaign</h2>
+  <form id="createCampaignForm">
+    <label for="goal">Goal (in Ether):</label>
+    <input type="number" id="goal" name="goal" required>
+    <button type="submit">Create Campaign</button>
+  </form>
+  <h2>Available Campaigns</h2>
+  <div id="campaignsList"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
